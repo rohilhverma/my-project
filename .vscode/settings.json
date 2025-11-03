@@ -1,15 +1,11 @@
 {
     "sqltools.connections": [
         {
-            "ssh": "Disabled",
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "askForPassword": true,
-            "driver": "PostgreSQL",
-            "name": "nbadata",
-            "database": "nba_data",
-            "username": "postgres"
+            "driver": "SQLite",
+            "database": "nba.db",
+            "name": "nba_data"
         }
-    ]
+    ],
+    "sqltools.useNodeRuntime": true
 }
